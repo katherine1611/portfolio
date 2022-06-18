@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Nunito:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #FFFFFFCC;
+  overflow-x: hidden;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+section, article {
+  padding: 5rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+  position: relative;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1e9e9;
+  border-radius: 0;
+  margin: 3px 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
+  border-radius: 10px;
+}
+
+footer {
+  position: relative;
+}
+
+footer strong, footer span {
+  color: #c2bcbc;
+}
+
+footer a:hover span {
+  text-decoration: underline;
+}
+
+.to-top {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.yellow {
+  background: yellow;
+  border: 1px solid #000;
+}
+
+.text-title {
+  font-family: "Righteous", cursive;
+}
+
+.font-title {
+  font-family: "Righteous", cursive;
+}
+
+.b-light {
+  background-color: #FDFDFD;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.shadow-bottom {
+  -webkit-box-shadow: 3px 3px 5px 2px #a2a1a1;
+          box-shadow: 3px 3px 5px 2px #a2a1a1;
+}
+
+main {
+  min-height: 100vh;
+  position: relative;
+}
+
+main .top-cover {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+main nav {
+  -webkit-transition: -webkit-box-shadow .4s ease;
+  transition: -webkit-box-shadow .4s ease;
+  transition: box-shadow .4s ease;
+  transition: box-shadow .4s ease, -webkit-box-shadow .4s ease;
+}
+
+main nav .navbar-brand {
+  font-family: "Righteous", cursive;
+}
+
+main nav .collapse .navbar-nav li {
+  padding-right: 15px;
+}
+
+main h5 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main .__info-text {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
+main .__info-text button.yellow:hover {
+  background-color: transparent;
+  color: yellow;
+  border-color: yellow;
+}
+
+.__awards-certificates h1 {
+  padding-top: 2rem 0;
+}
+
+.__awards-certificates .header-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.3rem;
+}
+
+.__awards-certificates .awards img {
+  border-bottom: 1px solid black;
+}
+
+.__about-me img {
+  height: 50%;
+}
+
+.__about-me .row {
+  padding: 2rem 0;
+}
+
+.__about-me .quote {
+  font-size: 50px;
+  font-weight: border;
+  font-family: 'Twinkle Star', cursive;
+  margin: 0 10px;
+}
+
+.__about-me .about-container {
+  position: relative;
+}
+
+.__about-me .about-container p {
+  font-size: 1.2em;
+  letter-spacing: .5px;
+  line-height: 35px;
+}
+
+.__org .row {
+  padding: 2rem 0;
+}
+
+.__org p {
+  padding-bottom: 20px;
+}
+
+.__org img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__tools-and-frameworks .list-group {
+  margin: auto;
+  background: red;
+  width: 60%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.__tools-and-frameworks .list-group .list-group-item {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.__awards-certificates h1 {
+  padding-top: 2rem 0;
+}
+
+.__awards-certificates .header-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.3rem;
+}
+
+.__awards-certificates .awards img {
+  border-bottom: 1px solid black;
+}
+
+.__projects-and-design .row {
+  padding: 2rem 0;
+}
+
+.__projects-and-design h1 {
+  padding-bottom: 20px;
+}
+
+.__projects-and-design .row .card img {
+  height: auto;
+  -o-object-position: cover;
+     object-position: cover;
+}
+
+.yellow {
+  background: yellow;
+  border: 1px solid #000;
+}
+
+.text-title {
+  font-family: "Righteous", cursive;
+}
+
+.font-title {
+  font-family: "Righteous", cursive;
+}
+
+.b-light {
+  background-color: #FDFDFD;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.shadow-bottom {
+  -webkit-box-shadow: 3px 3px 5px 2px #a2a1a1;
+          box-shadow: 3px 3px 5px 2px #a2a1a1;
+}
+
+.__abilities .row {
+  padding: 2rem 0;
+}
+
+.__abilities .row .__content {
+  padding: 20px 30px 30px;
+  background: white;
+}
+
+.__abilities .row .__content h4 {
+  opacity: .9;
+}
+
+.__abilities .row .header-tools {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.3rem;
+}
+
+.__abilities .row .tools {
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.__abilities .row .tools i {
+  font-size: 25px;
+  margin: 0 5px;
+}
+
+.__abilities .row .tools .fa-html5 {
+  color: #e34c26;
+}
+
+.__abilities .row .tools .fa-css3-alt {
+  color: #264de4;
+}
+
+.__abilities .row .tools .fa-bootstrap {
+  color: #563d7c;
+}
+
+.__abilities .row .tools .fa-js {
+  color: #563d7c;
+}
+
+.__abilities .row .tools .fa-sass {
+  color: #cc6699;
+}
+
+.__abilities .row .tools .fa-node-js {
+  color: #3c873a;
+}
+
+.__abilities p {
+  line-height: 2rem;
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  -webkit-transform-origin: center right;
+          transform-origin: center right;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  opacity: 0;
+}
+
+.c-scrollbar:hover {
+  -webkit-transform: scaleX(1.45);
+          transform: scaleX(1.45);
+}
+
+.c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar {
+  width: 100%;
+  height: 10px;
+  top: auto;
+  bottom: 0;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar:hover {
+  -webkit-transform: scaleY(1.3);
+          transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+  right: auto;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.__projects-and-design
+{
+    .row{
+        padding: 2rem 0;
+    }
+    h1{
+        padding-bottom: 20px;
+    }
+
+    .row{
+        .card{
+            img{
+                height:auto;
+                object-position: cover;
+            }
+        }
+    }
+}

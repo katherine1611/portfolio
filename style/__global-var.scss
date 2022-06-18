@@ -1,0 +1,29 @@
+// TEXT COLOR 
+.yellow{
+    background: yellow;
+    border : 1px solid #000;
+}
+
+// TEXT FONT
+.text-title{
+    // font-size: calc(2.5em + .2vw);
+    // font-family: $font-title;
+    font-family: $font-righteous;
+}
+.font-title{
+    // font-size: 3rem;
+    font-family: $font-righteous;
+}
+
+// BACKGROUND
+.b-light{
+    background-color : #FDFDFD;
+}
+.bg-black{
+    background-color: #000;
+}
+
+// SCRIPT
+.shadow-bottom{
+    box-shadow:3px 3px 5px 2px rgb(162, 161, 161);
+}

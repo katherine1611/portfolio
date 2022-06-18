@@ -1,0 +1,63 @@
+@import './_fonts';
+
+*,*::before,*::after{
+    padding:0;
+    margin: 0;
+}
+html{
+     scroll-behavior: smooth;
+     transition: 1s ease;
+}
+body{
+    font-family: $font-text ;
+    background: #FFFFFFCC;
+    overflow-x: hidden;
+}
+button,a{
+    cursor: pointer;
+}
+section,article{
+    padding: 5rem 0;
+}
+::-webkit-scrollbar {
+    width: 1em;
+    position: relative;
+}
+::-webkit-scrollbar-track {
+    background: rgb(241, 233, 233);
+    border-radius: 0;
+    margin: 3px 0;
+}
+::-webkit-scrollbar-thumb {
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: yellow;
+    border-radius: 10px;
+}
+footer{
+    position: relative;
+    strong,span{
+        color: #c2bcbc;
+    }
+    a:hover span{
+        text-decoration: underline;
+    }
+}
+.to-top{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+@import './_global-var';
+@import'./_landing-page';
+@import'./_awards';
+@import'./_about-page';
+@import'./_participation';
+@import'./_tools-page';
+@import'./_awards';
+@import './_projects';
+@import'./_what-i-do';
+@import './_locomotive-scroll';

@@ -1,0 +1,54 @@
+@import './_global-var';
+
+.__abilities{
+    
+    .row{
+        padding: 2rem 0;
+
+        .__content{
+            padding: 20px 30px 30px;
+            background: white;
+
+            h4{
+                opacity: .9;
+            }
+        }
+        .header-tools{
+            font-family: $font-title;
+            font-size: 1.3rem;
+        }
+    
+        .tools{
+            margin-top: 6px;
+            margin-bottom: 20px;
+
+            i{
+                font-size: 25px;
+                margin: 0 5px;
+            }
+
+            .fa-html5{
+                color : #e34c26;
+            }
+            .fa-css3-alt{
+                color : #264de4;
+            }
+            .fa-bootstrap{
+                color : #563d7c;
+            }
+            .fa-js{
+                color : #563d7c;
+            }
+            .fa-sass{
+                color : #cc6699;
+            }
+            .fa-node-js{
+                color : #3c873a;
+            }
+        }
+    }
+    p{
+        line-height: 2rem;
+    }
+}
+

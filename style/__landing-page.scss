@@ -1,0 +1,41 @@
+main{
+    min-height:100vh;
+    position:relative;
+
+    .top-cover{
+        width:100%;
+        height:100%;
+        background: #000;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+  
+    nav{
+        transition: box-shadow .4s ease;
+        .navbar-brand{
+            font-family: $font-righteous;
+        }
+        .collapse{
+            .navbar-nav{
+                li{
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+
+    h5{
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .__info-text{
+        transform: translateY(60px);
+
+        button.yellow:hover{
+            background-color: transparent;
+            color: yellow;
+            border-color: yellow;
+        }
+    }
+}
